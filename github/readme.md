@@ -10,5 +10,8 @@ Git파일 commit 하는 순서
 4. git status
 5. cd github
 6. touch reamme.md
-7. git add readme.md
+7. git add
+- readme.md
+- add .
 8. git reset readme.md 
+9. git commit ""
