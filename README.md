@@ -1,1 +1,1 @@
-- [Github](My_First_Step/code/)
+- [Github](code/)
