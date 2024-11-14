@@ -1,1 +1,1 @@
-- [Github](code/)
+- [Github](github/)
