@@ -17,9 +17,9 @@ print(f" TOP {len(lst_all)} 리스트")
 # 순위, 제목, 가수, 앨범을 출력
 for rank, i in enumerate(lst_all, start=1):  # 순위를 1부터 시작
     try:
-        title = i.select_one(".ellipsis.rank01").text # 제목
-        singer = i.select_one(".ellipsis.rank02").text # 가수
-        album = i.select_one(".ellipsis.rank03").text  # 앨범
+        title = i.select_one(".ellipsis.rank01 a").text # 제목
+        singer = i.select_one(".ellipsis.rank02 a").text # 가수
+        album = i.select_one(".ellipsis.rank03 a").text  # 앨범
     except AttributeError:
         # 예외 처리: 일부 항목이 누락될 수 있으므로
         continue
