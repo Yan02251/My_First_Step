@@ -7,7 +7,7 @@ def index():
     # 템플릿에 전달할 데이터
     data = {
         'title': 'Flask Jinja Template',
-        'user': 'Shinezeee',
+        'user': 'Hyungi',
         'is_admin': True,
         'item_list': ['Item 1', 'Item 2', 'Item 3']
     }
