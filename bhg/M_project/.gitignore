@@ -1,0 +1,24 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*.swp
+.DS_Store
+
+# Poetry 관련
+poetry.lock
+.env
+venv/
+.virtualenvs/
+
+# PostgreSQL 관련
+*.pgdata
+*.sqlite3
+*.db
+
+# AWS 관련
+*.pem
+.aws/
+.ec2/
+
+# GitHub Actions 캐시
+.github/workflows/*.log
